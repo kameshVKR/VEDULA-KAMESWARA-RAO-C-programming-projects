@@ -9,16 +9,6 @@ struct student {
 };
 
 int main () {
-    //AGE VERIFICATION 
-    int age;
-    printf("ENTER YOUR AGE: \n");
-    scanf("%d", &age);
-    if (age >= 18) {
-        printf("YOU ARE ELIGIBLE TO GET A DRIVING LICENSE \n");
-    }
-    else {
-        printf("YOU ARE NOT ELIGIBLE TO GET A DRIVING LICENSE \n");
-    }
     struct student s1;
     printf("ENTER THE STUDENT DETAILS BELOW\n");
 
