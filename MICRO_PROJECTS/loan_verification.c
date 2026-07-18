@@ -8,9 +8,9 @@ int main() {
     if (salary >= 30000) {
         printf("you're approved for loan\n");
     }
-    else {
+     else {
         printf("you're not eligible for loan\n");
-    }
+     }
 
     return 0;
 }
