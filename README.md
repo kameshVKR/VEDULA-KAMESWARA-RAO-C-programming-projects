@@ -35,6 +35,26 @@ Here are the specific implementation scripts included in this workspace:
 * **Secure_Audit_Logger_Data_Ingestion_Module.c (Local Record Persistence Engine)**
   * **Core Concepts:** Persistent File Stream I/O Frameworks, Multi-Cycle Buffer Appending, Data Deserialization.
   * **Security Context:** Simulates a localized transactional Audit Log or SIEM ingestion pipeline. Implements sequential stream flushing via persistent append protocols (`a+`) to protect historical logs against unauthorized overwriting or manipulation vectors. Enforces read-only tracking boundaries (`r`) during verification phases to separate administrative data-writing privileges from standard execution scopes.
+  * # CyberEcho
+
+A simple Python command-line tool that converts typed text into spoken audio on Windows.
+
+## Features
+* **Instant Audio**: Converts text inputs to speech immediately.
+* **Input Validation**: Filters out empty inputs automatically.
+* **Zero Dependencies**: Uses native Windows PowerShell speech tools.
+
+## Setup & Usage
+1. Make sure you are using Windows with Python 3 installed.
+2. Run the script from your terminal:
+   ```bash
+   python demo.py
+   ```
+3. Type your text and press **Enter** to hear it spoken.
+
+---
+*Developed by THE_VKR*
+
 
 
 ## 🛠️ Dev Environment & Tools Setup
